@@ -13,7 +13,9 @@ module.exports = {
       },
       colors: {
         primary: "#54B080",
-        subtitle: "#C8C8C8",
+        black: "#1F1F1F",
+        secondary: "#C8C8C8",
+        accent: "#B05E54",
       },
     },
   },

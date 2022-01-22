@@ -4,8 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-[#F8F8F8];
-    @apply font-outfit;
+    @apply bg-[#F8F8F8] font-outfit text-black;
   }
   h1 {
     @apply font-black text-h1 xl:text-5xl;
