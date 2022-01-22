@@ -3,7 +3,7 @@ import Button from "../components/Button";
 
 const Login: NextPage = () => {
   return (
-    <div className="bg-white w-full m-8 xl:w-4/5 h-full flex items-center justify-between">
+    <div className="bg-white border border-grey-500 rounded-md drop-shadow-2xl overflow-hidden w-full m-8 xl:w-4/5 h-85vh flex items-center justify-between">
       <div className="flex justify-center w-1/2">
         <div>
           <span className="text-primary font-black">CONTROLLER</span>
@@ -24,7 +24,17 @@ const Login: NextPage = () => {
           </p>
         </div>
       </div>
-      <div>imagem</div>
+      <div className="bg-[url('../assets/images/money.jpg')] bg-center bg-no-repeat bg-cover w-1/2 h-full grid grid-row-3">
+        <div className="bg-black/40 text-white row-start-3 m-8 h-5/6 border border-secondary p-8 grid justify-items-stretch">
+          <h1 className="self-center">
+            <span className="text-primary ">Action</span> is the foundational
+            key to all success.
+          </h1>
+          <span className="text-left text-3xl self-center">
+            – Pablo Picasso
+          </span>
+        </div>
+      </div>
     </div>
   );
 };

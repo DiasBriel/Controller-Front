@@ -17,6 +17,9 @@ module.exports = {
         secondary: "#C8C8C8",
         accent: "#B05E54",
       },
+      height: {
+        "85vh": "85vh",
+      },
     },
   },
   plugins: [],
