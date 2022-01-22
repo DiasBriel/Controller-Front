@@ -18,8 +18,19 @@ module.exports = {
         accent: "#B05E54",
       },
       height: {
-        "85vh": "85vh",
+        "90vh": "90vh",
       },
+    },
+    screens: {
+      sm: "640px",
+
+      md: "768px",
+
+      lg: "1024px",
+
+      xl: "1280px",
+
+      "2xl": "1536px",
     },
   },
   plugins: [],
