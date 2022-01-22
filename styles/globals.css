@@ -4,17 +4,19 @@
 
 @layer base {
   body {
-    @apply bg-[#F8F8F8];
-    @apply font-outfit;
+    @apply bg-[#F8F8F8] font-outfit text-black;
   }
   h1 {
-    @apply font-black text-h1 xl:text-5xl;
+    @apply font-black text-3xl lg:text-4xl 2xl:text-5xl;
   }
   h5 {
     @apply text-lg;
   }
   p {
     @apply text-base;
+  }
+  label {
+    @apply font-bold;
   }
 }
 
