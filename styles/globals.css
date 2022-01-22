@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#F8F8F8];
+    @apply font-outfit;
+  }
+  h1 {
+    @apply font-black text-h1 xl:text-5xl;
+  }
+  h5 {
+    @apply text-lg;
+  }
+  p {
+    @apply text-base;
+  }
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url(/fonts/outfit/Outfit-Regular.ttf);
+}
